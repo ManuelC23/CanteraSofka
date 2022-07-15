@@ -7,8 +7,8 @@ package com.manuel.taller1;
 import java.util.ArrayList;
 
 /**
- *
- * @author Manuel
+ * Representación de una Fruta en la cual especificamos su peso promedio y color.
+ * @author Manuel Cervantes Obeso
  */
 public class Fruit {
     

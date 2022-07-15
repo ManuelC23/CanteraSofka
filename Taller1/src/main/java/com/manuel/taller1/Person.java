@@ -7,8 +7,8 @@ package com.manuel.taller1;
 import java.util.Date;
 
 /**
- *
- * @author Manuel
+ * Representación de una Persona y algunos de sus datos de identificación y características.
+ * @author Manuel Cervantes Obeso
  */
 public class Person {
     

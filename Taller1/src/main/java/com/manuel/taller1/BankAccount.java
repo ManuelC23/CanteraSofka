@@ -5,8 +5,8 @@
 package com.manuel.taller1;
 
 /**
- *
- * @author Manuel
+ * Representación de una Cuenta Bancaria, podemos establecer su ID y activarla o desactivarla.
+ * @author Manuel Cervantes Obeso
  */
 public class BankAccount {
     
@@ -15,7 +15,7 @@ public class BankAccount {
     private int accountNumber;
     protected boolean activated;
     
-    // Constructor
+    // Constructor de la clase BankAccount
 
     public BankAccount(int accountNumber, boolean activated) {
         this.accountNumber = accountNumber;
@@ -23,11 +23,11 @@ public class BankAccount {
     }
     
     // Métodos de BankAccount
-    public void setActivated(boolean actived){
+    public void setActivated(boolean actived){ // Método para cambiar el estado del booleano.
         this.activated = actived;
     }
     
-    public boolean getActivated(){
+    public boolean getActivated(){ // Método para verificar el estado del booleano.
         return this.activated;
     }
 }
