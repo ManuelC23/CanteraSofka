@@ -9,5 +9,29 @@ package com.manuel.taller1;
  * @author Manuel Cervantes Obeso
  */
 public class Payroll {
+
+    // Atributos de la Clase Payroll
+
+    public int ID;
+    public int workedDays;
+    private int Salary;
+
+    // Constructor de la clase Payroll
+
+    public Payroll(int ID, int workedDays, int Salary) {
+        this.ID = ID;
+        this.workedDays = workedDays;
+        this.Salary = Salary;
+    }
+
+    // Métodos de la clase Payroll
+
+    private void editSalary(int newSalary){
+        this.Salary = newSalary;
+    }
+
+    public int getSalary() {
+        return this.Salary;
+    }
     
 }
